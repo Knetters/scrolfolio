@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 
     fetchJson(content).then((data) => {
         res.render('index', data)
-        console.log(data)
+        // console.log(data)
     })
 });
 
