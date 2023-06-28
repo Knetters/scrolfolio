@@ -3,7 +3,14 @@ import fetch from "node-fetch"
 
 const app = express()
 
-const content = "/data/content.json" 
+const content = "https://raw.githubusercontent.com/Knetters/scrolfolio/main/public/content.json?token=GHSAT0AAAAAABYNOP4T7M2F2SUOP46CI5TWZE4R3QA" 
+
+// Set up EJS as the view engine
+app.set('view engine', 'ejs')
+app.set("views", "./views")
+
+// Serve static files from the public directory
+app.use(express.static('public'))
 
 // Route to index.ejs file
 app.get('/', (req, res) => {
@@ -13,13 +20,6 @@ app.get('/', (req, res) => {
         console.log(data)
     })
 });
-
-// Set up EJS as the view engine
-app.set('view engine', 'ejs')
-app.set("views", "./views")
-
-// Serve static files from the public directory
-app.use(express.static('public'))
 
 // Start the server
 const port = process.env.PORT || 8000

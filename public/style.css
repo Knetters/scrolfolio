@@ -1,0 +1,28 @@
+body, html, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.blue {
+    background-color: #96d1e0;
+}
+
+.green {
+    background-color: #8ee7a9;
+}
+
+.yellow {
+    background-color: #f0f1a5;
+}
+
+main {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    height: 100vh;
+    scroll-snap-align: start;
+}

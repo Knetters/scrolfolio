@@ -5,9 +5,11 @@
         <p>Section</p>
     </section>
 
-    <section>
-        
-    </section>
+    <% portfolioItems.forEach(item => { %>
+        <section class="<%= item.BGColor %>">
+            <p><%= item.title %></p>
+        </section>
+    <% }); %>
 </main>
 
 <%- include('./partials/foot') %>
