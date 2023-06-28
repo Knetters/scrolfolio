@@ -1,0 +1,32 @@
+{
+    "portfolioItems": [
+      {
+        "id": 1,
+        "title": "Project A",
+        "imageURL": "https://example.com/images/project-a.jpg",
+        "sprint": 3,
+        "description": "This is an amazing project showcasing...",
+        "date": "2022-12-15",
+        "redirectURL": "https://example.com/projects/project-a"
+      },
+      {
+        "id": 2,
+        "title": "Project B",
+        "imageURL": "https://example.com/images/project-b.jpg",
+        "sprint": 2,
+        "description": "A creative project with a focus on...",
+        "date": "2023-05-01",
+        "redirectURL": "https://example.com/projects/project-b"
+      },
+      {
+        "id": 3,
+        "title": "Project C",
+        "imageURL": "https://example.com/images/project-c.jpg",
+        "sprint": 1,
+        "description": "An innovative project involving...",
+        "date": "2023-02-18",
+        "redirectURL": "https://example.com/projects/project-c"
+      }
+    ]
+  }
+  
