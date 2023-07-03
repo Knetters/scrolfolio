@@ -15,7 +15,9 @@
         <section id="<%= item.id %>" class="<%= item.BGColor %>">
             <div class="inner-section">
                 <div class="content-box">
-                    <img src="/img/<%= item.imageURL %>">
+                    <a class="image-live-link" href="<%= item.redirectURL %>" target="_blank">
+                        <img src="/img/<%= item.imageURL %>">
+                    </a>
                     <h2><%= item.title %></h2>
                     <p><%= item.description %></p>
                     <div class="bottom-content-box">
@@ -23,9 +25,6 @@
                             <li>Sprint <%= item.sprint %></li>
                             <li><%= item.date %></li>
                         </ul>
-                        <div class="live-link">
-                            <a class="url" href="<%= item.redirectURL %>" target="_blank">Bekijk de website</a>
-                        </div>
                     </div>
                 </div>
             </div>

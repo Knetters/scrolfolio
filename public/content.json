@@ -42,7 +42,7 @@
             "description": "Alle studenten van alle squads staan in een database. Op de squad-page wordt iedereen ingeladen. Dit was één van de eerste opdrachten waar we node.js gebuikte en dit is een perfect voorbeeld voor het loopen van data!",
             "date": "2023-05-6",
             "redirectURL": "https://shiny-pear-hoodie.cyclic.app/?squad=squad-a-2022",
-            "BGColor": "blue"
+            "BGColor": "purple"
         }
     ]
 }  

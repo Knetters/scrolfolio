@@ -76,15 +76,19 @@ li:hover {
 }
 
 .blue {
-    background-color: #96d1e0;
+    background-color: #a6cad3;
 }
 
 .green {
-    background-color: #c7d6cf;
+    background-color: #9abaab;
 }
 
 .yellow {
-    background-color: #f0f1a5;
+    background-color: #d0d19c;
+}
+
+.purple {
+    background-color: #9f9cd1;
 }
 
 main {
@@ -128,11 +132,6 @@ img {
     width: 50%;
 }
 
-.live-link {
-    float: left;
-    width: 50%;
-    margin-top: 3rem;
-    font-weight: 500;
-    font-size: 1.4rem;
-    text-align: right;
+.image-live-link:hover {
+    cursor: pointer;
 }
