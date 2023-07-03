@@ -15,23 +15,23 @@
             "id": 2,
             "icon": "📟",
             "title": "Terminal Card, Server side profile card",
-            "imageURL": "https://example.com/images/project-b.jpg",
-            "sprint": 2,
-            "description": "A creative project with a focus on...",
-            "date": "2023-05-01",
-            "redirectURL": "https://example.com/projects/project-b",
-            "BGColor": "green"
+            "imageURL": "terminal-card.png",
+            "sprint": 7,
+            "description": "Dit is mijn server side visitekaartje gemaakt in de style van een MacOS terminal. Er zijn een aantal commando's die je uit kan voeren op de manier hoe een terminal werkt. De informatie wordt ingeladen via een API.",
+            "date": "2023-06-02",
+            "redirectURL": "https://vast-ruby-chick-robe.cyclic.app/",
+            "BGColor": "yellow"
         },
         {
             "id": 3,
             "icon": "💽",
             "title": "De Correspondent, Podcast web-app",
-            "imageURL": "https://example.com/images/project-c.jpg",
-            "sprint": 1,
-            "description": "An innovative project involving...",
-            "date": "2023-02-18",
-            "redirectURL": "https://example.com/projects/project-c",
-            "BGColor": "yellow"
+            "imageURL": "correspondent-web-app.png",
+            "sprint": 12,
+            "description": "Van het mediaplatform; de Correspondent kreeg ik de opdracht om een web-app te maken voor de podcasts die ze maken. Ik heb een mobile-only website gemaakt voor het ontdekken en het luisteren naar al hun podcast.",
+            "date": "2023-05-6",
+            "redirectURL": "https://proof-of-concept-production.up.railway.app/",
+            "BGColor": "green"
         }
     ]
 }  
