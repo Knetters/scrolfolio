@@ -76,19 +76,19 @@ li:hover {
 }
 
 .blue {
-    background-color: #a6cad3;
+    background-color: #b6e4f0;
 }
 
 .green {
-    background-color: #9abaab;
+    background-color: #c8f1de;
 }
 
 .yellow {
-    background-color: #d0d19c;
+    background-color: #ecedbb;
 }
 
 .purple {
-    background-color: #9f9cd1;
+    background-color: #bebce4;
 }
 
 main {
@@ -110,6 +110,17 @@ section {
 .content-box {
     width: 60%;
     margin-left: 20%;
+    position: relative;
+}
+
+.view-live {
+    position: absolute;
+    background-color: #82e48d;
+    padding: .5rem 1rem;
+    border-radius: .4rem;
+    margin-left: -1rem;
+    box-shadow: #323334 0px 0px 7px;
+    font-weight: 600;
 }
 
 .content-box li:hover {
