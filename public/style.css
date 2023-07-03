@@ -120,6 +120,7 @@ img {
 
 .bottom-content-box {
     width: 100%;
+    margin-top: -1rem;
 }
 
 .info-box {
