@@ -3,11 +3,14 @@
 <main>
     <section class="top-content">
         <h1>Neem een 👀 kijkje naar mijn 💻 werk.</h1>
+        <p><i class="downarrow fa fa-arrow-down" aria-hidden="true"></i></p>
     </section>
 
     <% portfolioItems.forEach(item => { %>
         <section class="<%= item.BGColor %>">
-            <p><%= item.title %></p>
+            <div class="inner-section">
+                <p><%= item.title %></p>
+            </div>  
         </section>
     <% }); %>
 </main>

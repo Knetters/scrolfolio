@@ -18,11 +18,24 @@ body {
 
 h1 {
     font-size: 7rem;
+    padding-top: 10rem;
 }
 
 .top-content {
     background-color: #f5f5f5;
     padding: 0rem 10rem;
+    position: relative;
+}
+
+.downarrow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5rem;
+}
+
+.top-content p {
+    font-size: 3rem;
 }
 
 .blue {
@@ -46,5 +59,8 @@ main {
 section {
     height: 100vh;
     scroll-snap-align: start;
+}
+
+.inner-section {
     padding: 2rem;
 }
