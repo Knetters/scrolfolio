@@ -2,6 +2,7 @@
     "portfolioItems": [
         {
             "id": 1,
+            "icon": "🥏",
             "title": "Ulti.TV, Ultimate Frisbee Scoreboard Dashboard",
             "imageURL": "realtime-stats.png",
             "sprint": 11,
@@ -12,7 +13,8 @@
         },
         {
             "id": 2,
-            "title": "Project B",
+            "icon": "📟",
+            "title": "Terminal Card, Server side profile card",
             "imageURL": "https://example.com/images/project-b.jpg",
             "sprint": 2,
             "description": "A creative project with a focus on...",
@@ -22,7 +24,8 @@
         },
         {
             "id": 3,
-            "title": "Project C",
+            "icon": "💽",
+            "title": "De Correspondent, Podcast web-app",
             "imageURL": "https://example.com/images/project-c.jpg",
             "sprint": 1,
             "description": "An innovative project involving...",

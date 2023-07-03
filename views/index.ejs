@@ -3,11 +3,16 @@
 <main>
     <section class="top-content">
         <h1>Neem een 👀 kijkje naar mijn 💻 werk.</h1>
+        <ul>
+            <% portfolioItems.forEach(link => { %>
+                <li><a href="#<%= link.id %>"><%= link.icon %> <%= link.title %></a></li>
+            <% }); %>
+        </ul>
         <p><i class="downarrow fa fa-arrow-down" aria-hidden="true"></i></p>
     </section>
 
     <% portfolioItems.forEach(item => { %>
-        <section class="<%= item.BGColor %>">
+        <section id="<%= item.id %>" class="<%= item.BGColor %>">
             <div class="inner-section">
                 <p><%= item.title %></p>
                 <img src="/img/<%= item.imageURL %>">

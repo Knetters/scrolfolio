@@ -21,6 +21,29 @@ h1 {
     padding-top: 10rem;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: #101010;
+}
+
+li {
+    font-weight: 500;
+    font-size: 1.4rem;
+    transition: .2s;
+}
+
+li:hover {
+    font-weight: 500;
+    font-size: 1.4rem;
+    transition: .2s;
+}
+
 .top-content {
     background-color: #f5f5f5;
     padding: 0rem 10rem;
@@ -63,4 +86,8 @@ section {
 
 .inner-section {
     padding: 2rem;
+}
+
+img {
+    height: 30rem;
 }
