@@ -21,6 +21,16 @@ h1 {
     padding-top: 10rem;
 }
 
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.content-box p {
+    margin-top: 1rem;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -39,9 +49,7 @@ li {
 }
 
 li:hover {
-    font-weight: 500;
-    font-size: 1.4rem;
-    transition: .2s;
+    padding-left: 1rem;
 }
 
 .top-content {
@@ -57,8 +65,14 @@ li:hover {
     padding: 5rem;
 }
 
+.uparrow {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
 .top-content p {
     font-size: 3rem;
+    cursor: pointer;
 }
 
 .blue {
@@ -82,12 +96,42 @@ main {
 section {
     height: 100vh;
     scroll-snap-align: start;
+    position: relative;
 }
 
 .inner-section {
     padding: 2rem;
 }
 
+.content-box {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.content-box li:hover {
+    padding-left: 0rem;
+}
+
 img {
-    height: 30rem;
+    width: 100%;
+    margin-top: 2rem;
+    box-shadow: #323334 0px 0px 10px;
+}
+
+.bottom-content-box {
+    width: 100%;
+}
+
+.info-box {
+    float: left;
+    width: 50%;
+}
+
+.live-link {
+    float: left;
+    width: 50%;
+    margin-top: 3rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: right;
 }

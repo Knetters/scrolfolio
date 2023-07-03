@@ -1,7 +1,7 @@
 <%- include('./partials/head') %>
 
 <main>
-    <section class="top-content">
+    <section id="start" class="top-content">
         <h1>Neem een 👀 kijkje naar mijn 💻 werk.</h1>
         <ul>
             <% portfolioItems.forEach(link => { %>
@@ -14,9 +14,22 @@
     <% portfolioItems.forEach(item => { %>
         <section id="<%= item.id %>" class="<%= item.BGColor %>">
             <div class="inner-section">
-                <p><%= item.title %></p>
-                <img src="/img/<%= item.imageURL %>">
-            </div>  
+                <div class="content-box">
+                    <img src="/img/<%= item.imageURL %>">
+                    <h2><%= item.title %></h2>
+                    <p><%= item.description %></p>
+                    <div class="bottom-content-box">
+                        <ul class="info-box">
+                            <li>Sprint <%= item.sprint %></li>
+                            <li><%= item.date %></li>
+                        </ul>
+                        <div class="live-link">
+                            <a class="url" href="<%= item.redirectURL %>" target="_blank">Bekijk de website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#start" class="uparrow"><i class="downarrow fa fa-arrow-up" aria-hidden="true"></i></a>
         </section>
     <% }); %>
 </main>
